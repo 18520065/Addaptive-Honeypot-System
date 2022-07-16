@@ -1,0 +1,1 @@
+{"switch": "00:00:00:00:00:00:00:01","name":"flow-2", "priority":"32768", "in_port":"3", "active":"true", "eth_type":"0x0800", "eth_src":"00:00:00:00:00:03", "eth_dst":"00:00:00:00:00:01", "ipv4_src":"10.0.0.3", "ipv4_dst":"10.0.0.1", "actions":"set_field=eth_src->00:00:00:00:00:02,set_field=ipv4_src->10.0.0.2,output=1"}
