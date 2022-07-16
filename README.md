@@ -22,4 +22,14 @@ Addaptive Honeypot System include SDN with floodlight controller and IDS using D
   **Add flow:** sudo ./add_flow.sh <br>
   **Delete flow:** sudo ./del_flow.sh
   
+## IDS (in IDS directory)
+> You can run the code in **jupyter notebook, google collab** <br>
+  Data i collecting using Nmap for scanning attack (nmap_exploit.csv) and HKUST for normal traffic (Normal.csv)
+
+> **Requirement** <br> 
+  All necessary module in CSE-CIC-IDS-2018.ipynb <br>
+  Dataset **CSE-CIC-IDS-2018** on training phase: https://www.unb.ca/cic/datasets/ids-2018.html <br>
+  Predict data using Normal.csv and nmap_exploit.csv 
+  
+> **Note:** Before running code in CSE-CIC-IDS-2018.ipynb, change data, data1 and data2 variables to your own directory
    
