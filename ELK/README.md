@@ -1,5 +1,5 @@
 
-* Build ELK image
+# Build ELK image
  
   > docker-compose build
     Start the container
