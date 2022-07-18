@@ -1,7 +1,7 @@
 
 # Build ELK image
  
-  > docker-compose build
-    Start the container
-    ./start_docker.sh
+  > docker-compose build </br>
+    Start the container </br>
+    ./start_docker.sh </br>
  
