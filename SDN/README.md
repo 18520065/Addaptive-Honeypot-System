@@ -31,9 +31,9 @@
 ```
 ## Redirect network traffic:
 **Referrence:**
-> https://floodlight.atlassian.net/wiki/spaces/floodlightcontroller/pages/45645828/How+to+Perform+Transparent+Packet+Redirection+with+OpenFlow+and+Floodlight <br>
-  **Note:** Change the paremeter in **flow1.json** and **flow2.json** to your own option before running the shell script <br>
-  **Note:** Change the directory where you store **flow1.json** and **flow2.json** in **addflow.sh**
+https://floodlight.atlassian.net/wiki/spaces/floodlightcontroller/pages/45645828/How+to+Perform+Transparent+Packet+Redirection+with+OpenFlow+and+Floodlight <br>
+**Note:** Change the paremeter in **flow1.json** and **flow2.json** to your own option before running the shell script <br>
+**Note:** Change the directory where you store **flow1.json** and **flow2.json** in **addflow.sh**
 ```bash
   # Add flow redirect:
   sudo ./add_flow.sh 
