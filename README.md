@@ -13,7 +13,7 @@ Addaptive Honeypot System include SDN with floodlight controller and IDS using D
   **Build Victim:** <br> cd ./victim/ <br> sudo docker build -t ubuntu:victim . <br>
   
 > **Run code:** <br> 
-  Before running sdn.py, change the BINDING_VOLUME variable to your own directory <br>
+  **Note:** Before running sdn.py, change the BINDING_VOLUME variable to your own directory <br>
   sudo python3 sdn.py
   
 > **Redirect network traffic:** <br>
