@@ -16,5 +16,5 @@
 > **Redirect network traffic:** <br>
   **Referrence:**               https://floodlight.atlassian.net/wiki/spaces/floodlightcontroller/pages/45645828/How+to+Perform+Transparent+Packet+Redirection+with+OpenFlow+and+Floodlight <br>
   **Note:** You should change the paremeter in flow1.json and flow2.json to your own option before running the shell script and change the directory where you store       flow1.json   and flow2.json in **addflow.sh** <br>
-  **Add flow:** sudo ./add_flow.sh <br>
-  **Delete flow:** sudo ./del_flow.sh
+  **Add flow:** sudo ./add_flow.sh or sudo bash add_flow.sh <br>
+  **Delete flow:** sudo ./del_flow.sh or sudo bash del_flow.sh
